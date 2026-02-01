@@ -1,0 +1,32 @@
+# Dashboard
+streamlit>=1.31.0
+plotly>=5.18.0
+pandas>=2.2.0
+
+# Google APIs
+google-auth>=2.27.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.116.0
+gspread>=6.0.0
+
+# Meta (Facebook) Ads
+facebook-business>=19.0.0
+
+# LinkedIn Ads
+requests>=2.31.0
+
+# Google Ads
+google-ads>=23.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pytz>=2024.1
+schedule>=1.2.0
+APScheduler>=3.10.4
+
+# Data manipulation
+numpy>=1.26.0
+
+# Logging
+colorlog>=6.8.0
