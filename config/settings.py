@@ -25,7 +25,7 @@ def get_env(key, default=''):
             return st.secrets.get(key, default)
         except:
             pass
-    return get_env(key, default)
+    return os.getenv(key, default)
 
 # Configurações Gerais
 DEBUG = get_env('DEBUG', 'False').lower() == 'true'
